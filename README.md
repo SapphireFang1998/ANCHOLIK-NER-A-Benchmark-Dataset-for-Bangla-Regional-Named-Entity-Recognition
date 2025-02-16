@@ -12,7 +12,7 @@
 - [License](#license)
 
 ## Data Availability
-The "ANCHOLIK-NER" dataset, available in CSV formats, is now publicly accessible. This dataset provides users with a valuable opportunity for flexible exploration and utilization in various research and analysis endeavors. You can explore and download the dataset at the following link: <a href="https://data.mendeley.com/datasets/gbkszkt8z3/1">ANCHOLIK-NER Dataset</a>. Feel free to leverage this resource for your research, experiments, or any other analytical purposes. If you have any questions or need further assistance with the dataset, don't hesitate to reach out.
+The "ANCHOLIK-NER" dataset, available in CSV formats, is now publicly accessible in Mendeley Data. This dataset provides users with a valuable opportunity for flexible exploration and utilization in various research and analysis endeavors. You can explore and download the dataset at the following link: <a href="https://data.mendeley.com/datasets/gbkszkt8z3/1">ANCHOLIK-NER Dataset</a>. Feel free to leverage this resource for your research, experiments, or any other analytical purposes. If you have any questions or need further assistance with the dataset, don't hesitate to reach out.
 
 ## Named Entity Categories
 The dataset includes the following named entity categories, each annotated using the BIO scheme:
@@ -69,7 +69,11 @@ For any questions or further inquiries, please feel free to reach out:
 If you find the dataset helpful, please consider citing our dataset:
 
 ```plaintext
-Paul, Bidyarthi; Preotee, Faika Fairuj; Refat, Shamim Rahim; shuvo, shuvashis; Islam, Shifat; Muhammad, Tashreef (2025), “ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition”, Mendeley Data, V1, doi: 10.17632/gbkszkt8z3.1
+Paul, Bidyarthi; Preotee, Faika Fairuj; Refat, Shamim Rahim; 
+shuvo, shuvashis; Islam, Shifat; Muhammad, Tashreef (2025), 
+“ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition”, 
+Mendeley Data, V1, doi: 10.17632/gbkszkt8z3.1
+```
 
 ## License
 [MIT License](LICENSE)
