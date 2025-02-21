@@ -84,14 +84,11 @@ Mendeley Data, V1, doi: 10.17632/gbkszkt8z3.1
 If you find the research work helpful, please consider citing our paper:
 
 ```bibtex
-@misc{paul2025ancholiknerbenchmarkdatasetbangla,
-      title={ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition}, 
-      author={Bidyarthi Paul and Faika Fairuj Preotee and Shuvashis Sarker and Shamim Rahim Refat and Shifat Islam and Tashreef Muhammad and Mohammad Ashraful Hoque and Shahriar Manzoor},
-      year={2025},
-      eprint={2502.11198},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.11198}, 
+@article{paul2025ancholik,
+  title={ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition},
+  author={Paul, Bidyarthi and Preotee, Faika Fairuj and Sarker, Shuvashis and Refat, Shamim Rahim and Islam, Shifat and Muhammad, Tashreef and Hoque, Mohammad Ashraful and Manzoor, Shahriar},
+  journal={arXiv preprint arXiv:2502.11198},
+  year={2025}
 }
 ```
 
