@@ -1,7 +1,7 @@
 # ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition
 
 ## Abstract
-"ANCHOLIK-NER" is a linguistically diverse dataset for Named Entity Recognition (NER) in Bangla regional dialects, capturing variations across Sylhet, Chittagong and Barishal. The dataset has around 10,443 sentences, 3,481 sentences per region. The data was collected from two publicly available datasets and through web scraping from various online newspapers, articles. To ensure high-quality annotations, the BIO tagging scheme was employed and professional annotators with expertise in regional dialects carried out the labeling process. The dataset is structured into separate subsets for each region and is available both in CSV format. Each entry contains textual data along with identified named entities and their corresponding annotations. Named entities are categorized into ten distinct classes: Person, Location, Organization, Food, Animal, Colour, Role, Relation, Object and Miscellaneous. This dataset serves as a valuable resource for developing and evaluating NER models for Bangla dialectal variations, contributing to regional language processing and low-resource NLP applications. It can be utilized to enhance NER systems in Bangla dialects, improve regional language understanding and support applications in machine translation, information retrieval and conversational AI.
+ANCHOLIK-NER is a linguistically diverse dataset for Named Entity Recognition (NER) in Bangla regional dialects, capturing variations across Sylhet, Chittagong, Barishal, Noakhali, and Mymensingh. The dataset has around 17,405 sentences, 3,481 sentences per region. The data was collected from two publicly available datasets and through web scraping from various online newspapers, articles. To ensure high-quality annotations, the BIO tagging scheme was employed, and professional annotators with expertise in regional dialects carried out the labeling process. The dataset is structured into separate subsets for each region and is available in CSV format. Each entry contains textual data along with identified named entities and their corresponding annotations. Named entities are categorized into ten distinct classes: Person, Location, Organization, Food, Animal, Colour, Role, Relation, Object, and Miscellaneous. This dataset serves as a valuable resource for developing and evaluating NER models for Bangla dialectal variations, contributing to regional language processing and low-resource NLP applications. It can be utilized to enhance NER systems in Bangla dialects, improve regional language understanding, and support applications in machine translation, information retrieval, and conversational AI.
 
 ## Table of Contents
 - [Data Availability](#data-availability)
@@ -35,18 +35,18 @@ The dataset includes the following named entity categories, each annotated using
 ## Overview of Dataset
 ### Total instances of Named Entity Types in three Regions
 
-| Named Entity Type  | Barishal | Sylhet | Chittagong | Total Instances |
-|--------------------|----------|--------|------------|-----------------|
-|    Person (PER)    |    39    |   38   |     39     |       116       |
-|   Location (LOC)   |    540   |  544   |    538     |      1622       |
-| Organization (ORG) |    143   |  146   |    144     |       433       |
-|    Food (FOOD)     |    310   |  308   |    308     |       926       |
-|    Animal (ANI)    |    56    |   55   |     56     |       167       |
-|    Colour (COL)    |    161   |  167   |    160     |       488       |
-|    Role (ROLE)     |    117   |  110   |    112     |       339       |
-|   Relation (REL)   |    664   |  660   |    662     |      1986       |
-|    Object (OBJ)    |    348   |  345   |    345     |      1038       |
-| Miscellaneous (O)  |   17773  | 18590  |   18025    |      54388      |
+| Named Entity Type  | Barishal | Sylhet | Chittagong | Noakhali | Mymensingh | Total Instances |
+|--------------------|----------|--------|------------|----------|------------|-----------------|
+|    Person (PER)    |    39    |   38   |     39     |    39    |     39     |       194       |
+|   Location (LOC)   |    540   |  544   |    538     |   361    |    362     |      1840       |
+| Organization (ORG) |    143   |  146   |    144     |   141    |    140     |       700       |
+|    Food (FOOD)     |    310   |  308   |    308     |   303    |    312     |      1541       |
+|    Animal (ANI)    |    56    |   55   |     56     |    57    |     57     |       284       |
+|    Colour (COL)    |    161   |  167   |    160     |   164    |    163     |       816       |
+|    Role (ROLE)     |    117   |  110   |    112     |   111    |    113     |       554       |
+|   Relation (REL)   |    664   |  660   |    662     |   376    |    676     |      3386       |
+|    Object (OBJ)    |    348   |  345   |    345     |   350    |    349     |      1747       |
+| Miscellaneous (O)  |   17773  | 18590  |   18025    |  17957   |   17943    |     90755       |
 
 ## Contact Information
 
@@ -74,10 +74,14 @@ For any questions or further inquiries, please feel free to reach out:
 If you find the dataset helpful, please consider citing our dataset:
 
 ```plaintext
-Paul, Bidyarthi; Preotee, Faika Fairuj; Refat, Shamim Rahim; 
-shuvo, shuvashis; Islam, Shifat; Muhammad, Tashreef (2025), 
-“ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition”, 
-Mendeley Data, V1, doi: 10.17632/gbkszkt8z3.1
+Paul, Bidyarthi; Preotee, Faika Fairuj; 
+shuvo, shuvashis; Refat, Shamim Rahim; 
+Islam, Shifat; Muhammad, Tashreef; 
+Hoque, Mohammad Ashraful; Manzoor, 
+Shahriar (2025), “ANCHOLIK-NER: A 
+Benchmark Dataset for Bangla Regional 
+Named Entity Recognition”, Mendeley 
+Data, V2, doi: 10.17632/gbkszkt8z3.2
 ```
 
 ## Citation of Research Article
