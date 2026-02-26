@@ -88,11 +88,20 @@ Data, V2, doi: 10.17632/gbkszkt8z3.2
 If you find the research work helpful, please consider citing our paper:
 
 ```bibtex
-@article{paul2025ancholik,
-  title={ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition},
-  author={Paul, Bidyarthi and Preotee, Faika Fairuj and Sarker, Shuvashis and Refat, Shamim Rahim and Islam, Shifat and Muhammad, Tashreef and Hoque, Mohammad Ashraful and Manzoor, Shahriar},
-  journal={arXiv preprint arXiv:2502.11198},
-  year={2025}
+@article{10.1371/journal.pone.0342786,
+    doi = {10.1371/journal.pone.0342786},
+    author = {Paul, Bidyarthi AND Preotee, Faika Fairuj AND Sarker, Shuvashis AND Refat, Shamim Rahim AND Islam, Shifat AND Muhammad, Tashreef AND Hoque, Mohammad Ashraful AND Manzoor, Shahriar},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {ANCHOLIK-NER: A benchmark dataset for Bangla regional named entity recognition},
+    year = {2026},
+    month = {02},
+    volume = {21},
+    url = {https://doi.org/10.1371/journal.pone.0342786},
+    pages = {1-36},
+    abstract = {Named Entity Recognition (NER) in regional dialects is a critical yet underexplored area in Natural Language Processing (NLP), especially for low-resource languages like Bangla. While NER systems for Standard Bangla have made progress, no existing resources or models specifically address the challenge of regional dialects such as Barishal, Chittagong, Mymensingh, Noakhali, and Sylhet, which exhibit unique linguistic features that existing models fail to handle effectively. To fill this gap, we introduce ANCHOLIK-NER, the first benchmark dataset for NER in Bangla regional dialects, comprising 17,405 sentences and 101,817 words annotated with 10 entity tags across 5 regions. The dataset was sourced from publicly available resources and supplemented with manual translations, ensuring alignment of named entities across dialects. We evaluate three transformer-based models—Bangla BERT, Bangla Bert Base, and BERT Base Multilingual Cased—on this dataset. Bangla BERT achieved the highest performance overall, with F1-scores of 82.27% (Mymensingh), 81.48% (Barishal), 78.75% (Sylhet), 78.50% (Noakhali), and 75.31% (Chittagong). These results highlight strong recognition capability in Mymensingh and Barishal, while dialectal variation in Chittagong remains challenging. As no prior NER resources exist for Bangla regional dialects, this work provides a foundational dataset and baseline benchmarks to facilitate future research. Future work will focus on dialect-aware model adaptation and expanding coverage to additional regions.},
+    number = {2},
+
 }
 ```
 
