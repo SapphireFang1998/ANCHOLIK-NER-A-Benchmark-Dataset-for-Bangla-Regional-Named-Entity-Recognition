@@ -14,10 +14,10 @@ ANCHOLIK-NER is a linguistically diverse dataset for Named Entity Recognition (N
 - [License](#license)
 
 ## Data Availability
-The "ANCHOLIK-NER" dataset, available in CSV formats, is now publicly accessible in Mendeley Data. This dataset provides users with a valuable opportunity for flexible exploration and utilization in various research and analysis endeavors. You can explore and download the dataset at the following link: <a href="https://data.mendeley.com/datasets/gbkszkt8z3/1">ANCHOLIK-NER Dataset</a>. Feel free to leverage this resource for your research, experiments or any other analytical purposes. If you have any questions or need further assistance with the dataset, don't hesitate to reach out.
+The "ANCHOLIK-NER" dataset, available in CSV formats, is now publicly accessible in Mendeley Data. This dataset provides users with a valuable opportunity for flexible exploration and utilization in various research and analysis endeavors. You can explore and download the dataset at the following link: <a href="https://data.mendeley.com/datasets/gbkszkt8z3">ANCHOLIK-NER Dataset</a>. Feel free to leverage this resource for your research, experiments or any other analytical purposes. If you have any questions or need further assistance with the dataset, don't hesitate to reach out.
 
 ## Research Article Availability
-A preprint of this research article is now publicly accessible in arXiv. You can read and download the article at the following link: <a href="https://arxiv.org/abs/2502.11198">**"ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition"**</a>. Feel free to leverage this resource for your research, experiments or any other analytical purposes.
+A research article on "ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition" has been officially published in PLOS One — a Q1 journal (Impact Factor: 3.2 | CiteScore: 5.6 | SJR: 0.803). You can read and download the article from <a href="https://doi.org/10.1371/journal.pone.0342786">**"here"**</a>. Feel free to leverage this resource for your research, experiments or any other analytical purposes.
 
 ## Named Entity Categories
 The dataset includes the following named entity categories, each annotated using the BIO scheme:
@@ -74,14 +74,11 @@ For any questions or further inquiries, please feel free to reach out:
 If you find the dataset helpful, please consider citing our dataset:
 
 ```plaintext
-Paul, Bidyarthi; Preotee, Faika Fairuj; 
-shuvo, shuvashis; Refat, Shamim Rahim; 
-Islam, Shifat; Muhammad, Tashreef; 
-Hoque, Mohammad Ashraful; Manzoor, 
-Shahriar (2025), “ANCHOLIK-NER: A 
-Benchmark Dataset for Bangla Regional 
-Named Entity Recognition”, Mendeley 
-Data, V2, doi: 10.17632/gbkszkt8z3.2
+Paul, Bidyarthi; Preotee, Faika Fairuj; Sarker, Shuvashis; 
+Refat, Shamim Rahim; Islam, Shifat; Muhammad, Tashreef; 
+Hoque, Mohammad Ashraful; Manzoor, Shahriar (2025), 
+“ANCHOLIK-NER: A Benchmark Dataset for Bangla Regional Named Entity Recognition”, 
+Mendeley Data, V3, doi: 10.17632/gbkszkt8z3.3
 ```
 
 ## Citation of Research Article
